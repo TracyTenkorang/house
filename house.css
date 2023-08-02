@@ -1,0 +1,511 @@
+
+    
+ /* HEADER-SECTION */
+
+ body{
+--orange-color: orange;
+--border-color: black;
+--text-color: grey;
+
+
+
+ }
+
+
+header{
+    background-color: black;
+    
+}
+
+ li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.upper-nav{
+    background-color: var(--brown-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 7rem 1.5rem 8rem;
+    height: 1.1rem;
+}
+
+
+
+
+.upper-nav ul li a i{
+    color: white;
+}
+
+.upper-nav-ul{
+    display: flex;
+    gap: 1rem;
+padding-top: 0rem;
+
+}
+
+.header-contact-section{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.header-contact-icons i{
+ margin-right: 10px;
+}
+
+
+ /*HERO SECTION*/
+.hero-section{
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url('imagesite/main\ interior.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 3rem 10rem;
+}
+
+    .hero-section i{
+        color: white;
+        font-size: 1.7rem;
+    }
+
+.hero-section span{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero-section .lower-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section .lower-nav-ul{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.hero-section .lower-nav-ul li a{
+    color: white;
+}
+
+.hero-section .lower-nav-ul .orange-contact{
+    color: var(--orange-color);
+}
+
+/*DESCRIPTION-SECTION */
+
+.written-header{
+    margin-top: -1rem;
+    padding: 2rem;
+}
+
+.written-header-text-container{
+    color: white;
+}
+
+.written-header-text-container h1{
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.written-header-text-container p{
+    width: 24%;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/*FORM SECTION*/
+form{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.form-input input{
+    padding: 1rem;
+    border: 0.5px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.8rem 12rem;
+    color: grey;
+    font-size: 17px;
+}
+
+.form-input{
+    position: relative;
+    width: 40%;
+
+}
+
+.form-input i{
+    position: absolute;
+    top: 15px;
+    padding-left: 10px;
+    color: grey;
+
+}
+
+form button{
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+form .search{
+    background-color: var(--orange-color);
+    color: white;
+}
+
+form .bed, form .advance{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*INTERIORS*/
+
+.interior-home-section{
+background-color: whitesmoke;
+margin-top: 0.2rem;
+}
+
+.interior-home-text{
+    color: var(--text-color);
+
+}
+
+.interior-home-text h2{
+    color: black;
+    margin-left: 8rem;
+    padding-top: 5rem;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+.interior-home-text p{
+    margin-left: 8rem;
+}
+
+.interior-home-images-section{
+margin-right: 0%;
+padding-left: 83%;
+
+}
+
+
+.prev-next button{
+    background-color: transparent;
+    border: 1px solid var(--orange-color);
+    border-radius: 5px;
+    padding-right: 1.8rem 1rem;
+    color: var(--orange-color);
+    font-size: 15px;
+
+}
+
+.interior1 {
+    background-image: url(./imagesite/interior1.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: left;
+    width: 220px;
+height: 200px;
+margin-left: 8rem;
+
+}
+
+.interior-decors{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+
+.interior1 button {
+    color: white;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.43rem; 
+    
+}
+
+.interior1 p {
+    display: flex;
+    align-items: baseline;
+    color: white;
+padding-top: 8rem;
+padding-left: 1rem;
+    
+}
+
+.interior-text p:nth-of-type(1){
+    margin-left: 8rem;
+}
+
+.interior-text p:nth-of-type(2){
+    margin-left: 8rem;
+
+}
+
+.interior-text p:nth-of-type(3){
+    margin-left: 8rem;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+
+}
+
+.interior2 {
+    background-image: url(./imagesite/interior2.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: left;
+    width: 220px;
+height: 200px;
+margin-left: 7rem;
+
+}
+
+.interior2 button {
+    color: white;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.43rem; 
+    
+}
+
+.interior2 p {
+    display: flex;
+    align-items: baseline;
+    color: white;
+padding-top: 8rem;
+padding-left: 1rem;
+    
+}
+
+.interior3 {
+    background-image: url(./imagesite/interior3.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: left;
+    width: 220px;
+height: 200px;
+margin-left: 7rem;
+
+}
+
+.interior3 button {
+    color: white;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.43rem; 
+    
+}
+
+.interior3 p {
+    display: flex;
+    align-items: baseline;
+    color: white;
+padding-top: 8rem;
+padding-left: 1rem;
+    
+}
+
+
+.interior4 {
+    background-image: url(/imagesite/interior4.jpeg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: left;
+    width: 220px;
+height: 200px;
+margin-left: 7rem;
+
+}
+
+.interior4 button {
+    color: white;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.43rem; 
+    
+}
+
+.interior4 p {
+    display: flex;
+    align-items: baseline;
+    color: white;
+padding-top: 8rem;
+padding-left: 1rem;
+    
+}
+
+
+/*TEAM*/
+.team{
+    background-color: white;
+margin-top: 0rem;
+padding-bottom: 7rem;
+
+}
+
+.team-members{
+    display: flex;
+    margin-top: 5rem;
+    
+}
+
+.team-image1{
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url(./imagesite/1team.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+height: 400px;
+margin-left: 10rem;
+
+}
+
+.team-image1 p:nth-of-type(1){
+    padding-top: 19rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.team-image1 p:nth-of-type(2){
+    padding-top: -3rem;
+    padding-left: 6rem;
+    font-size: 1rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.team-image2 {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url(./imagesite/Team2.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+height: 400px;
+margin-left: 3rem;
+}
+.team-image2 p:nth-of-type(1){
+    padding-top: 19rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.team-image2 p:nth-of-type(2){
+    padding-top: -3rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.team-image3 {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url(./imagesite/Team3.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+height: 400px;
+margin-left: 3rem;
+}
+
+.team-image3 p:nth-of-type(1){
+    padding-top: 19rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.team-image3 p:nth-of-type(2){
+    padding-top: -3rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.team-image4 {
+    background-image: linear-gradient(180deg, rgba(213,197,184,1) 0%, rgba(18,6,5,0.40948879551820727) 0%), url(./imagesite/Team4.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+height: 400px;
+margin-left: 3rem;
+}
+
+.team-image4 p:nth-of-type(1){
+    padding-top: 19rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.team-image4 p:nth-of-type(2){
+    padding-top: -3rem;
+    padding-left: 4rem;
+    font-size: 1rem;
+    font-weight: 3px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
